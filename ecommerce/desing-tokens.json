@@ -421,7 +421,7 @@
           "large": {
             "value": {
               "fontFamily": "{$rio.font.family.01}",
-              "lineHeight": "$$rio.font.line.height.sm",
+              "lineHeight": "$$rio.font.line.height.lg",
               "fontSize": "$$rio.font.size.xxxl",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}",
@@ -443,7 +443,7 @@
           "small": {
             "value": {
               "fontFamily": "$$rio.font.family.02",
-              "fontWeight": "$$rio.font.weight.500",
+              "fontWeight": "$$rio.font.weight.400",
               "lineHeight": "{$rio.font.line.height.sm}",
               "fontSize": "{$rio.font.size.xl}",
               "textDecoration": "{$rio.text.decoration.none}",
@@ -455,7 +455,7 @@
         "headline": {
           "large": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "$$rio.font.line.height.lg",
               "fontSize": "$$rio.font.size.lg",
@@ -466,7 +466,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "$$rio.font.line.height.sm",
               "fontSize": "$$rio.font.size.md",
@@ -477,9 +477,9 @@
           },
           "small": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
-              "lineHeight": "$$rio.font.line.height.md",
+              "lineHeight": "$$rio.font.line.height.sm",
               "fontSize": "$$rio.font.size.sm",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -490,9 +490,9 @@
         "title": {
           "large": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
-              "lineHeight": "$$rio.font.line.height.sm",
+              "lineHeight": "$$rio.font.line.height.md",
               "fontSize": "$$rio.font.size.xs",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -501,9 +501,9 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
-              "fontWeight": "$$rio.font.weight.500",
-              "lineHeight": "$$rio.font.line.height.md",
+              "fontFamily": "$$rio.font.family.02",
+              "fontWeight": "$$rio.font.weight.400",
+              "lineHeight": "$$rio.font.line.height.lg",
               "fontSize": "$$rio.font.size.xxs",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -512,9 +512,9 @@
           },
           "small": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
-              "fontWeight": "$$rio.font.weight.500",
-              "lineHeight": "$$rio.font.line.height.md",
+              "fontFamily": "$$rio.font.family.02",
+              "fontWeight": "$$rio.font.weight.400",
+              "lineHeight": "$$rio.font.line.height.sm",
               "fontSize": "$$rio.font.size.nano",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -525,9 +525,9 @@
         "body": {
           "large": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "{$rio.font.weight.400}",
-              "lineHeight": "$$rio.font.line.height.md",
+              "lineHeight": "$$rio.font.line.height.lg",
               "fontSize": "{$rio.font.size.xxs}",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -536,7 +536,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "$$rio.font.line.height.md",
               "fontSize": "$$rio.font.size.nano",
@@ -547,9 +547,9 @@
           },
           "small": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "{$rio.font.weight.400}",
-              "lineHeight": "$$rio.font.line.height.md",
+              "lineHeight": "$$rio.font.line.height.sm",
               "fontSize": "$$rio.font.size.micro",
               "textDecoration": "{$rio.text.decoration.none}",
               "textCase": "{$rio.text.case.none}"
@@ -560,7 +560,7 @@
         "label": {
           "large": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.lg}",
               "fontSize": "{$rio.font.size.nano}",
@@ -571,7 +571,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.02",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.md}",
               "fontSize": "{$rio.font.size.micro}",
@@ -582,7 +582,7 @@
           },
           "small": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.sm}",
               "fontSize": "{$rio.font.size.micro}",
@@ -595,8 +595,8 @@
         "button": {
           "large": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
-              "fontWeight": "$$rio.font.weight.500",
+              "fontFamily": "$$rio.font.family.02",
+              "fontWeight": "$$rio.font.weight.400",
               "lineHeight": "{$rio.font.line.height.md}",
               "fontSize": "{$rio.font.size.xxs}",
               "textDecoration": "{$rio.text.decoration.none}",
@@ -606,7 +606,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "$$rio.font.weight.500",
               "lineHeight": "{$rio.font.line.height.sm}",
               "fontSize": "$$rio.font.size.xxs",
@@ -617,9 +617,9 @@
           },
           "hyperlink": {
             "value": {
-              "fontFamily": "$$rio.font.family.01",
+              "fontFamily": "$$rio.font.family.03",
               "fontWeight": "{$rio.font.weight.400}",
-              "lineHeight": "$$rio.font.line.height.sm",
+              "lineHeight": "$$rio.font.line.height.md",
               "fontSize": "{$rio.font.size.xxs}",
               "textDecoration": "{$rio.text.decoration.underline}",
               "textCase": "$$rio.text.case.capitalize"
