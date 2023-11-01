@@ -275,7 +275,7 @@
         "label": {
           "large": {
             "value": {
-              "fontFamily": "{$rio.font.family.02}",
+              "fontFamily": "$$rio.font.family.01",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.lg}",
               "fontSize": "{$rio.font.size.nano}",
