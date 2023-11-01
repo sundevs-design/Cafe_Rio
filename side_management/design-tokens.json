@@ -1,5 +1,290 @@
 {
-  "Global_Tokens": {
+  "GlobalTokens": {
+    "$rio": {
+      "text": {
+        "decoration": {
+          "none": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "underline": {
+            "value": "underline",
+            "type": "textDecoration"
+          },
+          "strikethroungh": {
+            "value": "line-through",
+            "type": "textDecoration"
+          }
+        }
+      },
+      "opacity": {
+        "semi-opaque": {
+          "value": "0.72",
+          "type": "opacity"
+        },
+        "intense": {
+          "value": "0.32",
+          "type": "opacity"
+        },
+        "light": {
+          "value": "0.16",
+          "type": "opacity"
+        },
+        "semi-transparente": {
+          "value": "0.08",
+          "type": "opacity"
+        }
+      },
+      "shadow": {
+        "up": {
+          "01": {
+            "value": {
+              "x": "0",
+              "y": "-6",
+              "blur": "8",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "02": {
+            "value": {
+              "x": "0",
+              "y": "-4",
+              "blur": "6",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "03": {
+            "value": {
+              "x": "0",
+              "y": "-2",
+              "blur": "4",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          }
+        },
+        "down": {
+          "01": {
+            "value": {
+              "x": "0",
+              "y": "6",
+              "blur": "8",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "02": {
+            "value": {
+              "x": "0",
+              "y": "4",
+              "blur": "6",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "03": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0",
+              "color": "#00000029",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          }
+        }
+      },
+      "spacing": {
+        "stack": {
+          "quarck": {
+            "value": "2",
+            "type": "spacing"
+          },
+          "nano": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "micro": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "xxxs": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "xxs": {
+            "value": "24",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "32",
+            "type": "spacing"
+          },
+          "sm": {
+            "value": "40",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "48",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "56",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "64",
+            "type": "spacing"
+          },
+          "xxl": {
+            "value": "80",
+            "type": "spacing"
+          },
+          "xxxl": {
+            "value": "120",
+            "type": "spacing"
+          },
+          "huge": {
+            "value": "160",
+            "type": "spacing"
+          },
+          "giant": {
+            "value": "200",
+            "type": "spacing"
+          }
+        },
+        "inset": {
+          "nano": {
+            "value": "4 4",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "8 8",
+            "type": "spacing"
+          },
+          "sm": {
+            "value": "16 16",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "24 24",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "32 32",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "48 48",
+            "type": "spacing"
+          }
+        },
+        "squish": {
+          "quark": {
+            "value": "4 8",
+            "type": "spacing"
+          },
+          "nano": {
+            "value": "8 16",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "16 24",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "24 32",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "32 40",
+            "type": "spacing"
+          }
+        }
+      },
+      "border": {
+        "radius": {
+          "sharp": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "sm": {
+            "value": "4",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "8",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "16",
+            "type": "borderRadius"
+          },
+          "circular": {
+            "value": "50%",
+            "type": "borderRadius"
+          },
+          "pill": {
+            "value": "500",
+            "type": "borderRadius"
+          }
+        },
+        "stroke": {
+          "width": {
+            "none": {
+              "value": "0",
+              "type": "borderWidth"
+            },
+            "xs": {
+              "value": "1",
+              "type": "borderWidth"
+            },
+            "sm": {
+              "value": "2",
+              "type": "borderWidth"
+            }
+          }
+        },
+        "style": {
+          "solid": {
+            "value": {
+              "width": "$$rio.border.stroke.width.xs",
+              "style": "solid"
+            },
+            "type": "border"
+          },
+          "dashed": {
+            "value": {
+              "width": "{$rio.border.stroke.width.xs}",
+              "style": "dashed",
+              "color": ""
+            },
+            "type": "border"
+          }
+        }
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    }
+  },
+  "Site Management Tokens": {
     "$rio": {
       "font": {
         "family": {
@@ -8,11 +293,11 @@
             "type": "fontFamilies"
           },
           "02": {
-            "value": "Intro Head H",
+            "value": "Roboto Condensed",
             "type": "fontFamilies"
           },
           "03": {
-            "value": "Intro Head B",
+            "value": "Roboto Mono",
             "type": "fontFamilies"
           }
         },
@@ -1065,7 +1350,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Global_Tokens"
+      "GlobalTokens",
+      "Site Management Tokens"
     ]
   }
 }
