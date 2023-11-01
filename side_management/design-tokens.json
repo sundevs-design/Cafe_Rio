@@ -286,7 +286,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{$rio.font.family.02}",
+              "fontFamily": "$$rio.font.family.01",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.md}",
               "fontSize": "{$rio.font.size.micro}",
@@ -297,7 +297,7 @@
           },
           "small": {
             "value": {
-              "fontFamily": "$$rio.font.family.03",
+              "fontFamily": "$$rio.font.family.01",
               "fontWeight": "{$rio.font.weight.400}",
               "lineHeight": "{$rio.font.line.height.sm}",
               "fontSize": "{$rio.font.size.micro}",
