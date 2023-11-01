@@ -1,5 +1,5 @@
 {
-  "GlobalTokens": {
+  "Global Tokens": {
     "$rio": {
       "text": {
         "decoration": {
@@ -1091,7 +1091,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "GlobalTokens",
+      "Global Tokens",
       "Site Management Tokens"
     ]
   }
