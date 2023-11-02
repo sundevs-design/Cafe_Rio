@@ -107,114 +107,6 @@
           }
         }
       },
-      "spacing": {
-        "stack": {
-          "quarck": {
-            "value": "2",
-            "type": "spacing"
-          },
-          "nano": {
-            "value": "4",
-            "type": "spacing"
-          },
-          "micro": {
-            "value": "8",
-            "type": "spacing"
-          },
-          "xxxs": {
-            "value": "16",
-            "type": "spacing"
-          },
-          "xxs": {
-            "value": "24",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "32",
-            "type": "spacing"
-          },
-          "sm": {
-            "value": "40",
-            "type": "spacing"
-          },
-          "md": {
-            "value": "48",
-            "type": "spacing"
-          },
-          "lg": {
-            "value": "56",
-            "type": "spacing"
-          },
-          "xl": {
-            "value": "64",
-            "type": "spacing"
-          },
-          "xxl": {
-            "value": "80",
-            "type": "spacing"
-          },
-          "xxxl": {
-            "value": "120",
-            "type": "spacing"
-          },
-          "huge": {
-            "value": "160",
-            "type": "spacing"
-          },
-          "giant": {
-            "value": "200",
-            "type": "spacing"
-          }
-        },
-        "inset": {
-          "nano": {
-            "value": "4 4",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "8 8",
-            "type": "spacing"
-          },
-          "sm": {
-            "value": "16 16",
-            "type": "spacing"
-          },
-          "md": {
-            "value": "24 24",
-            "type": "spacing"
-          },
-          "lg": {
-            "value": "32 32",
-            "type": "spacing"
-          },
-          "xl": {
-            "value": "48 48",
-            "type": "spacing"
-          }
-        },
-        "squish": {
-          "quark": {
-            "value": "4 8",
-            "type": "spacing"
-          },
-          "nano": {
-            "value": "8 16",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "16 24",
-            "type": "spacing"
-          },
-          "md": {
-            "value": "24 32",
-            "type": "spacing"
-          },
-          "lg": {
-            "value": "32 40",
-            "type": "spacing"
-          }
-        }
-      },
       "border": {
         "radius": {
           "sharp": {
@@ -275,6 +167,112 @@
             "type": "border"
           }
         }
+      }
+    },
+    "spacing": {
+      "quarck": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "nano": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "xxxs": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "xxs": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "56",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "64",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "80",
+        "type": "spacing"
+      },
+      "xxxl": {
+        "value": "120",
+        "type": "spacing"
+      },
+      "huge": {
+        "value": "160",
+        "type": "spacing"
+      },
+      "giant": {
+        "value": "200",
+        "type": "spacing"
+      }
+    },
+    "inset": {
+      "nano": {
+        "value": "4 4",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "8 8",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "16 16",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "24 24",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "32 32",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "48 48",
+        "type": "spacing"
+      }
+    },
+    "squish": {
+      "quark": {
+        "value": "4 8",
+        "type": "spacing"
+      },
+      "nano": {
+        "value": "8 16",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "16 24",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "24 32",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "32 40",
+        "type": "spacing"
       }
     },
     "paragraphSpacing": {
